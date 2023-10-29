@@ -1,0 +1,308 @@
+/* SHARED STYLES */
+body {
+  margin: -23px 0 0 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.clearfix {
+  clear: both;
+}
+
+p,
+li {
+  font-size: 17px;
+}
+
+p,
+a,
+button,
+li {
+  font-family: "Alegreya Sans", sans-serif;
+  color: #686868;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Alegreya", serif;
+  color: #303030;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+button {
+  padding: 15px 30px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.cont-padding {
+  padding: 8vh 0;
+}
+
+.back-grey {
+  background-color: #f8f8f8;
+}
+
+.bor-bott {
+  border-bottom: 1px solid #cccccc65;
+  padding: 0 0 10px;
+  margin: 0 30px 0 0;
+}
+/***************************/
+/* HOME */
+.home {
+  text-align: center;
+  height: 100vh;
+  background-image: url(images/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+
+.home .container {
+  width: 45%;
+}
+
+.home p {
+  font-size: 23px;
+  color: #fff;
+}
+
+.home .first-elm {
+  padding-top: 30vh;
+}
+
+.home h1 {
+  font-size: 76px;
+  margin: 0;
+  color: #fff;
+}
+
+.learn-btn {
+  background-color: #8e7754;
+  color: #fff;
+  border: 0;
+}
+
+.contact-btn {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+/***************************/
+/* WHO WE ARE */
+.who-img {
+  text-align: left;
+}
+
+.who-img,
+.who-info {
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+}
+
+.who-img img {
+  width: 90%;
+}
+
+.who ul {
+  list-style: none;
+  padding: 0;
+}
+
+.who li {
+  margin: 30px 0;
+}
+
+.who-info svg,
+.who-info span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.who-info svg {
+  fill: #8e7754;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+/***************************/
+/* OUR LOCATION */
+.location-img {
+  text-align: right;
+}
+
+.location-img,
+.location-info {
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+}
+
+.location-img img {
+  width: 90%;
+}
+/***************************/
+/* OUR BAKING */
+.our-baking {
+  text-align: center;
+}
+
+.our-baking .item {
+  float: left;
+  width: 33.3333%;
+}
+
+.our-baking h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.our-baking .items-grp {
+  margin-top: 50px;
+}
+
+.our-baking .item img {
+  width: 90%;
+  text-align: center;
+}
+
+.our-baking .item p {
+  padding: 10px;
+}
+/***************************/
+/* CONTACT INFORMATION */
+.contact-info,
+.contact-img {
+  float: left;
+  width: 50%;
+}
+
+.contact-img {
+  text-align: right;
+}
+
+.contact-img img {
+  width: 90%;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact li {
+  margin: 30px 0;
+}
+
+.contact-info svg,
+.contact-info span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contact-info svg {
+  fill: #fff;
+  background-color: #8e7754;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+/***************************/
+/* FOOTER */
+.footer {
+  background-color: #403d38;
+}
+
+.footer .column {
+  float: left;
+  width: 25%;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+
+.footer p,
+.footer li {
+  color: #969696;
+  font-size: 16px;
+}
+
+.footer h4 {
+  font-size: 18px;
+  color: #fff;
+}
+
+.footer ul {
+  list-style: inside;
+  padding: 0;
+}
+
+.footer .no-list {
+  list-style: none;
+  padding: 0;
+  background-image: url(images/contact-details-map.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footer svg {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer svg {
+  fill: #969696;
+  padding: 0 10px 0 0;
+  /* margin-right: 10px; */
+}
+/***************************/
+/* COPYRIGHT */
+.copy {
+  background-color: #353330;
+  text-align: center;
+}
+
+.copy .logo {
+  width: 30%;
+}
+
+.copy p {
+  font-size: 15px;
+}
+
+.copy .socials {
+  width: 15%;
+  margin: auto;
+}
+
+.copy .socials a {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.copy .socials a img {
+  width: 100%;
+}
+/***************************/
